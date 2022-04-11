@@ -1,0 +1,124 @@
+.back-cart {
+  max-height: 50px;
+}
+.cart-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.cart-heading-row {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+}
+.cart-mybag {
+  box-sizing: border-box;
+  background-color: navy;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 0;
+  justify-content: center;
+  align-items: center;
+}
+.cart-total-items {
+  margin-top: 10px;
+}
+.product-cart-items {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  width: 60%;
+  margin: auto;
+}
+.product-cart-image {
+  max-height: 180px;
+
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.product-cart-title {
+    margin-left: 5%;
+    margin-top: 0;
+}
+.product-cart-title p {
+    margin-bottom: 10px;
+}
+.cart-items-quantity {
+    margin-right: 10px;
+}
+.cart-button-checkout {
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 0px rgb(0 0 0 / 24%);
+    color: white;
+    transition: all 0.2s;
+    background-color: navy;
+    cursor: pointer;
+}
+.thrash {
+    padding: 0;
+}
+.thrash svg {
+    background-color: red;
+    width: 20px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    
+}
+.cart-total-row {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.cart-total span {
+    font-weight: bold;
+    margin-right: 20px;
+}
+.cart-checkout-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn-cart {
+    margin-right: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 4px 0px rgb(0 0 0 / 24%);
+    color: white;
+    transition: all 0.2s;
+    background-color: navy;
+    cursor: pointer;
+}
+
+.cart-empty {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem auto;
+}
+.cart-empty h4 {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .product-cart-image {
+        max-height: 200px;
+    }
+}
